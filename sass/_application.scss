@@ -28,6 +28,10 @@
   perspective: $val;
 }
 
+.hide {
+  display:none;
+}
+
 $rotateX : rotateX(-15deg);
 $rotateY : rotateY(-45deg);
 .viewport {
@@ -37,7 +41,6 @@ $rotateY : rotateY(-45deg);
   top:20%;
   left:20%;
   @include perspective(2000px);
-  @include transformStyle ;
 }
 .cube {
   position:absolute;
@@ -62,15 +65,15 @@ $rotateY : rotateY(-45deg);
 
 .cube .second {
   @include transform(rotateY(180deg) translateZ(27px));
-/*  background-color:red;*/
+  background-color:red;
 }
 .cube .third {
   @include transform(rotateY(90deg) translateZ(27px));
-/*  background-color:green;*/
+  background-color:green;
 }
 .cube .fourth {
   @include transform(rotateY(-90deg) translateZ(27px));
-/*  background-color:blue;*/
+  background-color:blue;
 }
 
 .bottomCube {
@@ -225,20 +228,33 @@ $rotateY : rotateY(-45deg);
 
   30% {
     @include transform($rotateX rotateY(-60deg) translateY(-52px));
-    @include transform-origin(0 0 0);
+    @include transform-origin(50% 50% 0);
   }
-  32.1%{
-    @include transform-origin(-50px 25px -50px);
-    @include transform($rotateX rotateY(0deg) translateY(-50px));
+  32%{
+    @include transform-origin(-54px 27px -27px);
+    @include transform(rotateX(0deg)  rotateY(0deg) rotateY(0deg) translateX(0) translateY(0) translateZ(0));
+
   }
 
-  95% {
-    @include transform-origin(-50px 25px -50px);
-    @include transform($rotateX rotateY(45deg) translateY(-50px));
+  75% {
+    @include transform-origin(-54px 27px -27px);
+    @include transform(rotateX(0deg)  rotateY(270deg) rotateY(0deg) translateX(0) translateY(0) translateZ(0));
   }
 
   100% {
-    @include transform-origin(-50px 25px -50px);
-    @include transform($rotateX rotateY(45deg) translateY(-50px));
+    @include transform-origin(-54px 27px -27px);
+    //@include transform($rotateX  rotateY(180deg)  translateY(-52px));
+  }
+}
+
+@-webkit-keyframes rotateEdge {
+  0% {
+    @include transform-origin(54px 27px -27px);
+    @include transform($rotateX  rotateY(0));
+  }
+
+  100%{
+    @include transform-origin(54px 27px -27px);
+    @include transform($rotateX  rotateY(360deg));
   }
 }
