@@ -37,6 +37,7 @@ $rotateY : rotateY(-45deg);
   top:20%;
   left:20%;
   @include perspective(2000px);
+  @include transformStyle ;
 }
 .cube {
   position:absolute;
@@ -171,19 +172,27 @@ $rotateY : rotateY(-45deg);
   }
 
   28% {
-    @include transform($rotateX $rotateY translateY(0));
+    @include transform($rotateX $rotateY);
   }
 
   30% {
     @include transform($rotateX rotateY(-30deg));
+    @include transform-origin(0 0 0);
   }
 
-  32% {
-    @include transform($rotateX $rotateY);
+  32.1%{
+    @include transform-origin(100% 100% 50px);
+    @include transform($rotateX rotateY(-30deg));
+  }
+
+  45% {
+    @include transform-origin(100% 100% 50px);
+    @include transform($rotateX rotateY(270deg));
   }
 
   100% {
-    @include transform($rotateX $rotateY translateY(0px));
+    @include transform-origin(100% 100% 50px);
+    @include transform($rotateX rotateY(270deg));
   }
 }
 
@@ -193,32 +202,25 @@ $rotateY : rotateY(-45deg);
   }
   5% {
     @include transform($rotateX $rotateY translateY(5px));
-    @include transform-origin(0 0 0);
   }
   8% {
     @include transform($rotateX $rotateY translateY(0));
-    @include transform-origin(0 0 0);
   }
   20% {
     @include transform($rotateX $rotateY translateY(-57px));
-    @include transform-origin(0 0 0);
   }
   21% {
     @include transform($rotateX $rotateY translateY(-52px));
-    @include transform-origin(0 0 0);
   }
   22% {
     @include transform($rotateX $rotateY translateY(-54px));
-    @include transform-origin(0 0 0);
   }
   22.5%{
     @include transform($rotateX $rotateY translateY(-52px));
-    @include transform-origin(0 0 0);
   }
 
   28% {
     @include transform($rotateX $rotateY translateY(-52px));
-    @include transform-origin(0 0 0);
   }
 
   30% {
@@ -226,17 +228,17 @@ $rotateY : rotateY(-45deg);
     @include transform-origin(0 0 0);
   }
   32.1%{
-    @include transform-origin(100% 100% 50px);
-    @include transform($rotateX rotateY(-60deg) translateY(-50px));
+    @include transform-origin(-50px 25px -50px);
+    @include transform($rotateX rotateY(0deg) translateY(-50px));
   }
 
-  45% {
-    @include transform-origin(100% 100% 50px);
-    @include transform($rotateX rotateY(135deg) translateY(-50px));
+  95% {
+    @include transform-origin(-50px 25px -50px);
+    @include transform($rotateX rotateY(45deg) translateY(-50px));
   }
 
   100% {
-    @include transform-origin(100% 100% 50px);
-    @include transform($rotateX rotateY(135deg) translateY(-50px));
+    @include transform-origin(-50px 25px -50px);
+    @include transform($rotateX rotateY(45deg) translateY(-50px));
   }
 }
