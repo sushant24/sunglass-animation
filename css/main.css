@@ -845,7 +845,7 @@ textarea {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000345}}
 .viewport {
   position: absolute;
   width: 200px;
@@ -857,7 +857,7 @@ textarea {
   perspective: 2000px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000353}}
 .cube {
   position: absolute;
   left: 30%;
@@ -867,7 +867,7 @@ textarea {
   transform-style: preserve-3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000360}}
 .face {
   position: absolute;
   width: 50px;
@@ -877,35 +877,35 @@ textarea {
   border: 2px solid #816306;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000369}}
 .cube .first {
   -webkit-transform: translateZ(27px);
   -moz-transform: translateZ(27px);
   transform: translateZ(27px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000374}}
 .cube .second {
   -webkit-transform: rotateY(180deg) translateZ(27px);
   -moz-transform: rotateY(180deg) translateZ(27px);
   transform: rotateY(180deg) translateZ(27px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000377}}
 .cube .third {
   -webkit-transform: rotateY(90deg) translateZ(27px);
   -moz-transform: rotateY(90deg) translateZ(27px);
   transform: rotateY(90deg) translateZ(27px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000380}}
 .cube .fourth {
   -webkit-transform: rotateY(-90deg) translateZ(27px);
   -moz-transform: rotateY(-90deg) translateZ(27px);
   transform: rotateY(-90deg) translateZ(27px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000384}}
 .bottomCube {
   -webkit-transform-origin: 27px 27px;
   -moz-transform-origin: 27px 27px;
@@ -916,7 +916,7 @@ textarea {
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000389}}
 .topCube {
   z-index: 3;
   -webkit-transform-origin: 27px 27px;
@@ -927,7 +927,7 @@ textarea {
   animation: topCube 5s infinite ease;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000394}}
 .leftCube {
   z-index: 2;
   -webkit-transform-origin: 0 27px 27px;
@@ -938,7 +938,7 @@ textarea {
   animation: leftCube 5s infinite ease;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000399}}
 .rightCube {
   z-index: 4;
   -webkit-transform-origin: 54px 27px -27px;
@@ -950,49 +950,49 @@ textarea {
 }
 
 @-webkit-keyframes bottomCube {
-  /* line 105, ../sass/_application.scss */
+  /* line 107, ../sass/_application.scss */
   0% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
   }
 
-  /* line 109, ../sass/_application.scss */
+  /* line 111, ../sass/_application.scss */
   5% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
   }
 
-  /* line 113, ../sass/_application.scss */
+  /* line 115, ../sass/_application.scss */
   8% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
   }
 
-  /* line 117, ../sass/_application.scss */
+  /* line 119, ../sass/_application.scss */
   28% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
   }
 
-  /* line 121, ../sass/_application.scss */
+  /* line 123, ../sass/_application.scss */
   30% {
     -webkit-transform: rotateX(-15deg) rotateY(-30deg);
     -moz-transform: rotateX(-15deg) rotateY(-30deg);
     transform: rotateX(-15deg) rotateY(-30deg);
   }
 
-  /* line 125, ../sass/_application.scss */
+  /* line 127, ../sass/_application.scss */
   32% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg);
     -moz-transform: rotateX(-15deg) rotateY(-45deg);
     transform: rotateX(-15deg) rotateY(-45deg);
   }
 
-  /* line 129, ../sass/_application.scss */
+  /* line 131, ../sass/_application.scss */
   100% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0px);
@@ -1001,78 +1001,85 @@ textarea {
 }
 
 @-webkit-keyframes topCube {
-  /* line 135, ../sass/_application.scss */
+  /* line 137, ../sass/_application.scss */
   0% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
   }
 
-  /* line 138, ../sass/_application.scss */
+  /* line 140, ../sass/_application.scss */
   5% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
   }
 
-  /* line 141, ../sass/_application.scss */
+  /* line 143, ../sass/_application.scss */
   8% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
   }
 
-  /* line 144, ../sass/_application.scss */
+  /* line 146, ../sass/_application.scss */
   20% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-57px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-57px);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(-57px);
   }
 
-  /* line 147, ../sass/_application.scss */
+  /* line 149, ../sass/_application.scss */
   21% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
   }
 
-  /* line 150, ../sass/_application.scss */
+  /* line 152, ../sass/_application.scss */
   22% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-54px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-54px);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(-54px);
   }
 
-  /* line 153, ../sass/_application.scss */
+  /* line 155, ../sass/_application.scss */
   22.5% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
   }
 
-  /* line 157, ../sass/_application.scss */
+  /* line 159, ../sass/_application.scss */
   28% {
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
   }
 
-  /* line 161, ../sass/_application.scss */
+  /* line 163, ../sass/_application.scss */
   30% {
     -webkit-transform: rotateX(-15deg) rotateY(-60deg) translateY(-52px);
     -moz-transform: rotateX(-15deg) rotateY(-60deg) translateY(-52px);
     transform: rotateX(-15deg) rotateY(-60deg) translateY(-52px);
   }
 
-  /* line 165, ../sass/_application.scss */
+  /* line 167, ../sass/_application.scss */
   32% {
+    z-index: 3;
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
   }
 
-  /* line 169, ../sass/_application.scss */
+  /* line 171, ../sass/_application.scss */
+  40% {
+    z-index: 5;
+  }
+
+  /* line 175, ../sass/_application.scss */
   100% {
+    z-index: 5;
     -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
     transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
@@ -1080,87 +1087,87 @@ textarea {
 }
 
 @-webkit-keyframes leftCube {
-  /* line 176, ../sass/_application.scss */
+  /* line 183, ../sass/_application.scss */
   0% {
     opacity: 0;
-    -webkit-transform: rotateX(-15deg) translateX(-11px) rotateY(0);
-    -moz-transform: rotateX(-15deg) translateX(-11px) rotateY(0);
-    transform: rotateX(-15deg) translateX(-11px) rotateY(0);
+    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
+    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
+    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
   }
 
-  /* line 181, ../sass/_application.scss */
+  /* line 188, ../sass/_application.scss */
   32% {
     opacity: 0;
-    -webkit-transform: rotateX(-15deg) translateX(-11px) rotateY(0);
-    -moz-transform: rotateX(-15deg) translateX(-11px) rotateY(0);
-    transform: rotateX(-15deg) translateX(-11px) rotateY(0);
+    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
+    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
+    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
   }
 
-  /* line 185, ../sass/_application.scss */
+  /* line 192, ../sass/_application.scss */
   32.1% {
     opacity: 0.8;
-    -webkit-transform: rotateX(-15deg) translateX(-11px) rotateY(0);
-    -moz-transform: rotateX(-15deg) translateX(-11px) rotateY(0);
-    transform: rotateX(-15deg) translateX(-11px) rotateY(0);
+    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
+    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
+    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
   }
 
-  /* line 190, ../sass/_application.scss */
-  45% {
-    -webkit-transform: rotateX(-15deg) translateX(-11px) rotateY(-315deg);
-    -moz-transform: rotateX(-15deg) translateX(-11px) rotateY(-315deg);
-    transform: rotateX(-15deg) translateX(-11px) rotateY(-315deg);
+  /* line 197, ../sass/_application.scss */
+  40% {
+    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
+    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
+    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
   }
 
-  /* line 194, ../sass/_application.scss */
+  /* line 201, ../sass/_application.scss */
   100% {
-    -webkit-transform: rotateX(-15deg) translateX(-11px) rotateY(-315deg);
-    -moz-transform: rotateX(-15deg) translateX(-11px) rotateY(-315deg);
-    transform: rotateX(-15deg) translateX(-11px) rotateY(-315deg);
+    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
+    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
+    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
   }
 }
 
 @-webkit-keyframes rightCube {
-  /* line 200, ../sass/_application.scss */
+  /* line 207, ../sass/_application.scss */
   0% {
     opacity: 0;
-    -webkit-transform: rotateX(-15deg) translateX(11px) rotateY(-45deg) translateY(-54px);
-    -moz-transform: rotateX(-15deg) translateX(11px) rotateY(-45deg) translateY(-54px);
-    transform: rotateX(-15deg) translateX(11px) rotateY(-45deg) translateY(-54px);
+    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
   }
 
-  /* line 205, ../sass/_application.scss */
+  /* line 212, ../sass/_application.scss */
   32% {
     opacity: 0;
-    -webkit-transform: rotateX(-15deg) translateX(11px) rotateY(-45deg) translateY(-54px);
-    -moz-transform: rotateX(-15deg) translateX(11px) rotateY(-45deg) translateY(-54px);
-    transform: rotateX(-15deg) translateX(11px) rotateY(-45deg) translateY(-54px);
+    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
   }
 
-  /* line 209, ../sass/_application.scss */
+  /* line 216, ../sass/_application.scss */
   32.1% {
     opacity: 0.8;
-    -webkit-transform: rotateX(-15deg) translateX(11px) rotateY(-45deg) translateY(-54px);
-    -moz-transform: rotateX(-15deg) translateX(11px) rotateY(-45deg) translateY(-54px);
-    transform: rotateX(-15deg) translateX(11px) rotateY(-45deg) translateY(-54px);
+    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
   }
 
-  /* line 214, ../sass/_application.scss */
-  45% {
-    -webkit-transform: rotateX(-15deg) translateX(11px) rotateY(225deg) translateY(-54px);
-    -moz-transform: rotateX(-15deg) translateX(11px) rotateY(225deg) translateY(-54px);
-    transform: rotateX(-15deg) translateX(11px) rotateY(225deg) translateY(-54px);
+  /* line 221, ../sass/_application.scss */
+  40% {
+    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
+    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
+    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
   }
 
-  /* line 218, ../sass/_application.scss */
+  /* line 225, ../sass/_application.scss */
   100% {
-    -webkit-transform: rotateX(-15deg) translateX(11px) rotateY(225deg) translateY(-54px);
-    -moz-transform: rotateX(-15deg) translateX(11px) rotateY(225deg) translateY(-54px);
-    transform: rotateX(-15deg) translateX(11px) rotateY(225deg) translateY(-54px);
+    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
+    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
+    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
   }
 }
 
 @-webkit-keyframes rotateEdge {
-  /* line 224, ../sass/_application.scss */
+  /* line 231, ../sass/_application.scss */
   0% {
     -webkit-transform-origin: 0 27px 27px;
     -moz-transform-origin: 0 27px 27px;
@@ -1170,7 +1177,7 @@ textarea {
     transform: rotateX(-15deg) translateX(-11px) rotateY(0deg);
   }
 
-  /* line 229, ../sass/_application.scss */
+  /* line 236, ../sass/_application.scss */
   100% {
     -webkit-transform-origin: 0 27px 27px;
     -moz-transform-origin: 0 27px 27px;

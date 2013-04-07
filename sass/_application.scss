@@ -38,7 +38,9 @@ $edge : 50px;
 $border : 2px;
 $length : $edge + 2*$border;
 $halfLength : $length/2;
-$transformFactor : 11px;
+$transformFactorX : 11px;
+$transformFactorY : 0;
+$transformFactorZ : -10px;
 $opacity : 0.80;
 .viewport {
   position:absolute;
@@ -163,10 +165,15 @@ $opacity : 0.80;
   }
 
   32% {
+    z-index:3;
     @include transform($rotateX $rotateY translateY(-52px));
+  }
+  40% {
+    z-index:5;
   }
 
   100% {
+    z-index:5;
     @include transform($rotateX $rotateY translateY(-52px));
   }
 }
@@ -175,59 +182,59 @@ $opacity : 0.80;
 @-webkit-keyframes leftCube {
   0% {
     opacity:0;
-    @include transform($rotateX translateX(-$transformFactor) rotateY(0));
+    @include transform(translateX(-$transformFactorX) translateZ($transformFactorZ) $rotateX  rotateY(0));
   }
 
   32% {
     opacity:0;
-    @include transform($rotateX translateX(-$transformFactor) rotateY(0));
+    @include transform(translateX(-$transformFactorX) translateZ($transformFactorZ) $rotateX rotateY(0));
   }
   32.1%{
     opacity:$opacity;
-    @include transform($rotateX translateX(-$transformFactor) rotateY(0));
+    @include transform(translateX(-$transformFactorX) translateZ($transformFactorZ) $rotateX  rotateY(0));
   }
 
   40% {
-    @include transform($rotateX translateX(-$transformFactor) rotateY(-315deg));
+    @include transform(translateX(-$transformFactorX) translateZ($transformFactorZ) $rotateX rotateY(-315deg));
   }
 
   100% {
-    @include transform($rotateX translateX(-$transformFactor) rotateY(-315deg));
+    @include transform(translateX(-$transformFactorX) translateZ($transformFactorZ) $rotateX rotateY(-315deg));
   }
 }
 
 @-webkit-keyframes rightCube {
   0% {
     opacity:0;
-    @include transform($rotateX translateX($transformFactor) rotateY(-45deg) translateY(-54px));
+    @include transform(translateX($transformFactorX) translateZ($transformFactorZ) $rotateX  rotateY(-45deg) translateY(-54px));
   }
 
   32% {
     opacity:0;
-    @include transform($rotateX translateX($transformFactor) rotateY(-45deg) translateY(-54px));
+    @include transform(translateX($transformFactorX) translateZ($transformFactorZ) $rotateX  rotateY(-45deg) translateY(-54px));
   }
   32.1%{
     opacity:$opacity;
-    @include transform($rotateX translateX($transformFactor) rotateY(-45deg) translateY(-54px));
+    @include transform(translateX($transformFactorX) translateZ($transformFactorZ) $rotateX  rotateY(-45deg) translateY(-54px));
   }
 
   40% {
-    @include transform($rotateX translateX($transformFactor) rotateY(225deg) translateY(-54px));
+    @include transform(translateX($transformFactorX) translateZ($transformFactorZ) $rotateX  rotateY(225deg) translateY(-54px));
   }
 
   100% {
-    @include transform($rotateX translateX($transformFactor) rotateY(225deg) translateY(-54px));
+    @include transform(translateX($transformFactorX) translateZ($transformFactorZ) $rotateX  rotateY(225deg) translateY(-54px));
   }
 }
 
 @-webkit-keyframes rotateEdge {
   0% {
     @include transform-origin(0 27px 27px);
-    @include transform($rotateX translateX(-$transformFactor) rotateY(0deg));
+    @include transform($rotateX translateX(-$transformFactorX) rotateY(0deg));
   }
 
   100%{
     @include transform-origin(0 27px 27px);
-    @include transform($rotateX translateX(-$transformFactor) rotateY(-360deg));
+    @include transform($rotateX translateX(-$transformFactorX) rotateY(-360deg));
   }
 }
