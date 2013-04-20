@@ -845,19 +845,19 @@ textarea {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000351}}
 .viewport {
   position: absolute;
   width: 200px;
   height: 200px;
   top: 20%;
   left: 20%;
-  -webkit-perspective: 2000px;
-  -moz-perspective: 2000px;
-  perspective: 2000px;
+  -webkit-perspective: 50000px;
+  -moz-perspective: 50000px;
+  perspective: 50000px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000359}}
 .cube {
   position: absolute;
   left: 30%;
@@ -867,7 +867,7 @@ textarea {
   transform-style: preserve-3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000366}}
 .face {
   position: absolute;
   width: 50px;
@@ -877,35 +877,35 @@ textarea {
   border: 2px solid #816306;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000375}}
 .cube .first {
   -webkit-transform: translateZ(27px);
   -moz-transform: translateZ(27px);
   transform: translateZ(27px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000380}}
 .cube .second {
   -webkit-transform: rotateY(180deg) translateZ(27px);
   -moz-transform: rotateY(180deg) translateZ(27px);
   transform: rotateY(180deg) translateZ(27px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000383}}
 .cube .third {
   -webkit-transform: rotateY(90deg) translateZ(27px);
   -moz-transform: rotateY(90deg) translateZ(27px);
   transform: rotateY(90deg) translateZ(27px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000386}}
 .cube .fourth {
   -webkit-transform: rotateY(-90deg) translateZ(27px);
   -moz-transform: rotateY(-90deg) translateZ(27px);
   transform: rotateY(-90deg) translateZ(27px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000390}}
 .bottomCube {
   -webkit-transform-origin: 27px 27px;
   -moz-transform-origin: 27px 27px;
@@ -916,7 +916,7 @@ textarea {
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000395}}
 .topCube {
   z-index: 3;
   -webkit-transform-origin: 27px 27px;
@@ -927,7 +927,7 @@ textarea {
   animation: topCube 5s infinite ease;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\00003100}}
 .leftCube {
   z-index: 2;
   -webkit-transform-origin: 0 27px 27px;
@@ -938,7 +938,7 @@ textarea {
   animation: leftCube 5s infinite ease;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sushant\/Dev\/SunglassAnimation\/sass\/_application\.scss}line{font-family:\00003105}}
 .rightCube {
   z-index: 4;
   -webkit-transform-origin: 54px 27px -27px;
@@ -950,240 +950,240 @@ textarea {
 }
 
 @-webkit-keyframes bottomCube {
-  /* line 107, ../sass/_application.scss */
+  /* line 113, ../sass/_application.scss */
   0% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
   }
 
-  /* line 111, ../sass/_application.scss */
+  /* line 117, ../sass/_application.scss */
   5% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(5px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(5px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(5px);
   }
 
-  /* line 115, ../sass/_application.scss */
+  /* line 121, ../sass/_application.scss */
   8% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
   }
 
-  /* line 119, ../sass/_application.scss */
+  /* line 125, ../sass/_application.scss */
   28% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
   }
 
-  /* line 123, ../sass/_application.scss */
+  /* line 129, ../sass/_application.scss */
   30% {
     -webkit-transform: rotateX(-15deg) rotateY(-30deg);
     -moz-transform: rotateX(-15deg) rotateY(-30deg);
     transform: rotateX(-15deg) rotateY(-30deg);
   }
 
-  /* line 127, ../sass/_application.scss */
+  /* line 133, ../sass/_application.scss */
   32% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg);
-    transform: rotateX(-15deg) rotateY(-45deg);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg);
+    transform: rotateX(-15deg) rotateY(-30deg);
   }
 
-  /* line 131, ../sass/_application.scss */
+  /* line 137, ../sass/_application.scss */
   100% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(0px);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(0px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(0px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(0px);
   }
 }
 
 @-webkit-keyframes topCube {
-  /* line 137, ../sass/_application.scss */
-  0% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-  }
-
-  /* line 140, ../sass/_application.scss */
-  5% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(5px);
-  }
-
   /* line 143, ../sass/_application.scss */
-  8% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(0);
+  0% {
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
   }
 
   /* line 146, ../sass/_application.scss */
-  20% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-57px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-57px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(-57px);
+  5% {
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(5px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(5px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(5px);
   }
 
   /* line 149, ../sass/_application.scss */
-  21% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
+  8% {
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(0);
   }
 
   /* line 152, ../sass/_application.scss */
-  22% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-54px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-54px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+  20% {
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(-59px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(-59px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(-59px);
   }
 
   /* line 155, ../sass/_application.scss */
+  21% {
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+  }
+
+  /* line 158, ../sass/_application.scss */
+  22% {
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(-56px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(-56px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(-56px);
+  }
+
+  /* line 161, ../sass/_application.scss */
   22.5% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
   }
 
-  /* line 159, ../sass/_application.scss */
+  /* line 165, ../sass/_application.scss */
   28% {
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
   }
 
-  /* line 163, ../sass/_application.scss */
+  /* line 169, ../sass/_application.scss */
   30% {
-    -webkit-transform: rotateX(-15deg) rotateY(-60deg) translateY(-52px);
-    -moz-transform: rotateX(-15deg) rotateY(-60deg) translateY(-52px);
-    transform: rotateX(-15deg) rotateY(-60deg) translateY(-52px);
+    -webkit-transform: rotateX(-15deg) rotateY(-60deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) rotateY(-60deg) translateY(-54px);
+    transform: rotateX(-15deg) rotateY(-60deg) translateY(-54px);
   }
 
-  /* line 167, ../sass/_application.scss */
+  /* line 173, ../sass/_application.scss */
   32% {
     z-index: 3;
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
   }
 
-  /* line 171, ../sass/_application.scss */
+  /* line 177, ../sass/_application.scss */
   40% {
     z-index: 5;
   }
 
-  /* line 175, ../sass/_application.scss */
+  /* line 181, ../sass/_application.scss */
   100% {
     z-index: 5;
-    -webkit-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    -moz-transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
-    transform: rotateX(-15deg) rotateY(-45deg) translateY(-52px);
+    -webkit-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
+    transform: rotateX(-15deg) rotateY(-30deg) translateY(-54px);
   }
 }
 
 @-webkit-keyframes leftCube {
-  /* line 183, ../sass/_application.scss */
+  /* line 189, ../sass/_application.scss */
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
-    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
-    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
+    -webkit-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(0);
+    -moz-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(0);
+    transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(0);
   }
 
-  /* line 188, ../sass/_application.scss */
+  /* line 194, ../sass/_application.scss */
   32% {
     opacity: 0;
-    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
-    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
-    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
+    -webkit-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(0);
+    -moz-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(0);
+    transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(0);
   }
 
-  /* line 192, ../sass/_application.scss */
+  /* line 198, ../sass/_application.scss */
   32.1% {
     opacity: 0.8;
-    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
-    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
-    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(0);
+    -webkit-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(0);
+    -moz-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(0);
+    transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(0);
   }
 
-  /* line 197, ../sass/_application.scss */
+  /* line 203, ../sass/_application.scss */
   40% {
-    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
-    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
-    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
+    -webkit-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(-300deg);
+    -moz-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(-300deg);
+    transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(-300deg);
   }
 
-  /* line 201, ../sass/_application.scss */
+  /* line 207, ../sass/_application.scss */
   100% {
-    -webkit-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
-    -moz-transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
-    transform: translateX(-11px) translateZ(-10px) rotateX(-15deg) rotateY(-315deg);
+    -webkit-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(-300deg);
+    -moz-transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(-300deg);
+    transform: rotateX(-15deg) translateX(-10px) translateZ(10px) rotateY(-300deg);
   }
 }
 
 @-webkit-keyframes rightCube {
-  /* line 207, ../sass/_application.scss */
+  /* line 213, ../sass/_application.scss */
   0% {
     opacity: 0;
-    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
-    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
-    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+    -webkit-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-30deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-30deg) translateY(-54px);
+    transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-30deg) translateY(-54px);
   }
 
-  /* line 212, ../sass/_application.scss */
+  /* line 218, ../sass/_application.scss */
   32% {
     opacity: 0;
-    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
-    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
-    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+    -webkit-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-30deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-30deg) translateY(-54px);
+    transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-30deg) translateY(-54px);
   }
 
-  /* line 216, ../sass/_application.scss */
+  /* line 222, ../sass/_application.scss */
   32.1% {
     opacity: 0.8;
-    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
-    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
-    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(-45deg) translateY(-54px);
+    -webkit-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-30deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-30deg) translateY(-54px);
+    transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-30deg) translateY(-54px);
   }
 
-  /* line 221, ../sass/_application.scss */
+  /* line 227, ../sass/_application.scss */
   40% {
-    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
-    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
-    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
+    -webkit-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(240deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(240deg) translateY(-54px);
+    transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(240deg) translateY(-54px);
   }
 
-  /* line 225, ../sass/_application.scss */
+  /* line 231, ../sass/_application.scss */
   100% {
-    -webkit-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
-    -moz-transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
-    transform: translateX(11px) translateZ(-10px) rotateX(-15deg) rotateY(225deg) translateY(-54px);
+    -webkit-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(240deg) translateY(-54px);
+    -moz-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(240deg) translateY(-54px);
+    transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(240deg) translateY(-54px);
   }
 }
 
 @-webkit-keyframes rotateEdge {
-  /* line 231, ../sass/_application.scss */
+  /* line 237, ../sass/_application.scss */
   0% {
-    -webkit-transform-origin: 0 27px 27px;
-    -moz-transform-origin: 0 27px 27px;
-    transform-origin: 0 27px 27px;
-    -webkit-transform: rotateX(-15deg) translateX(-11px) rotateY(0deg);
-    -moz-transform: rotateX(-15deg) translateX(-11px) rotateY(0deg);
-    transform: rotateX(-15deg) translateX(-11px) rotateY(0deg);
+    -webkit-transform-origin: 54px 27px -27px;
+    -moz-transform-origin: 54px 27px -27px;
+    transform-origin: 54px 27px -27px;
+    -webkit-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(0deg);
+    -moz-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(0deg);
+    transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(0deg);
   }
 
-  /* line 236, ../sass/_application.scss */
+  /* line 242, ../sass/_application.scss */
   100% {
-    -webkit-transform-origin: 0 27px 27px;
-    -moz-transform-origin: 0 27px 27px;
-    transform-origin: 0 27px 27px;
-    -webkit-transform: rotateX(-15deg) translateX(-11px) rotateY(-360deg);
-    -moz-transform: rotateX(-15deg) translateX(-11px) rotateY(-360deg);
-    transform: rotateX(-15deg) translateX(-11px) rotateY(-360deg);
+    -webkit-transform-origin: 54px 27px -27px;
+    -moz-transform-origin: 54px 27px -27px;
+    transform-origin: 54px 27px -27px;
+    -webkit-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-360deg);
+    -moz-transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-360deg);
+    transform: rotateX(-15deg) translateX(10px) translateZ(-10px) rotateY(-360deg);
   }
 }
